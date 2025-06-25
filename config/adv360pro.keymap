@@ -13,6 +13,7 @@
 
             #binding-cells = <2>;
             tapping-term-ms = <200>;
+            flavor = "balanced";
         };
 
         tap_to_hold: tap_to_hold {
