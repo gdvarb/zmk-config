@@ -31,11 +31,11 @@
 
         default_layer {
             bindings = <
-&kp EQUAL  &kp N1         &kp N2         &kp N3                   &kp N4                       &kp N5  &tog 1                                                                    &mo 3  &kp N6                              &kp N7         &kp N8         &kp N9                               &kp N0         &kp MINUS
-&kp ESC    &kp B          &kp L          &tap_to_hold LEFT_ALT D  &tap_to_hold LEFT_CONTROL W  &kp Z   &none                                                                     &none  &tap_to_hold APOSTROPHE UNDERSCORE  &kp F          &kp O          &kp U                                &kp J          &kp BSLH
-&kp TAB    &to_layer 4 N  &to_layer 3 R  &to_layer 1 T            &to_layer 2 S                &kp G   &none             &kp LCTRL  &kp LALT    &kp LGUI   &kp RCTRL             &none  &kp Y                               &to_layer 2 H  &to_layer 1 A  &to_layer 3 E                        &to_layer 4 I  &kp COMMA
-&kp LSHFT  &kp Q          &kp X          &kp M                    &kp C                        &kp V                                &kp HOME    &kp PG_UP                               &kp K                               &kp P          &kp PERIOD     &tap_to_hold DOUBLE_QUOTES KP_MINUS  &kp FSLH       &kp RSHFT
-&mo 2      &kp GRAVE      &kp CAPS       &kp LEFT                 &kp RIGHT                                    &kp BSPC  &kp DEL    &kp END     &kp PG_DN  &kp ENTER  &kp SPACE                                             &kp UP         &kp DOWN       &kp LBKT                             &kp RBKT       &mo 2
+&kp EQUAL  &kp N1         &kp N2         &kp N3                   &kp N4                       &kp N5  &tog 1                                                                    &mo 3  &kp N6                              &kp N7                        &kp N8                   &kp N9                               &kp N0         &kp MINUS
+&kp ESC    &kp B          &kp L          &tap_to_hold LEFT_ALT D  &tap_to_hold LEFT_CONTROL W  &kp Z   &none                                                                     &none  &tap_to_hold APOSTROPHE UNDERSCORE  &tap_to_hold RIGHT_CONTROL F  &tap_to_hold LEFT_ALT O  &kp U                                &kp J          &kp BSLH
+&kp TAB    &to_layer 4 N  &to_layer 3 R  &to_layer 1 T            &to_layer 2 S                &kp G   &none             &kp LCTRL  &kp LALT    &kp LGUI   &kp RCTRL             &none  &kp Y                               &to_layer 2 H                 &to_layer 1 A            &to_layer 3 E                        &to_layer 4 I  &kp COMMA
+&kp LSHFT  &kp Q          &kp X          &kp M                    &kp C                        &kp V                                &kp HOME    &kp PG_UP                               &kp K                               &kp P                         &kp PERIOD               &tap_to_hold DOUBLE_QUOTES KP_MINUS  &kp FSLH       &kp RSHFT
+&mo 2      &kp GRAVE      &kp CAPS       &kp LEFT                 &kp RIGHT                                    &kp BSPC  &kp DEL    &kp END     &kp PG_DN  &kp ENTER  &kp SPACE                                             &kp UP                        &kp DOWN                 &kp LBKT                             &kp RBKT       &mo 2
             >;
         };
 
@@ -71,11 +71,11 @@
 
         layer_4 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                                    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                                    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans    &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                          &trans    &trans                          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans    &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
+&none  &none  &none  &none  &none  &none  &none                                              &none  &none  &none            &none        &none  &none  &none
+&none  &none  &none  &none  &none  &none  &none                                              &none  &none  &none            &none        &none  &none  &none
+&none  &none  &none  &none  &none  &none  &none         &none  &none    &none  &none         &none  &none  &none            &none        &none  &none  &none
+&none  &none  &none  &none  &none  &none                       &none    &none                       &none  &kp LC(LS(TAB))  &kp LC(TAB)  &none  &none  &none
+&none  &none  &none  &none  &none                &none  &none  &none    &none  &none  &none                &none            &none        &none  &none  &none
             >;
         };
     };
